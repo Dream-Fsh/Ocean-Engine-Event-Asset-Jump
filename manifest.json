@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "巨量账户页批量打开",
+  "description": "批量打开巨量引擎账户的事件管理页面。",
+  "version": "1.0.0",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["https://ad.oceanengine.com/*"],
+  "action": {
+    "default_title": "批量打开巨量账户页",
+    "default_popup": "src/popup.html"
+  },
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  }
+}

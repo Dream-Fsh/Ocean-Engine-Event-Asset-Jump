@@ -1,0 +1,8 @@
+{
+  "name": "oceanengine-account-opener",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}

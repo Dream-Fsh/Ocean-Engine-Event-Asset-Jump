@@ -1,0 +1,79 @@
+:root {
+  color: #202538;
+  font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-width: 330px;
+  background: #f6f8fc;
+}
+
+.panel {
+  padding: 18px;
+}
+
+h1 {
+  margin: 0 0 6px;
+  font-size: 18px;
+}
+
+.intro, .privacy {
+  color: #667085;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.intro {
+  margin: 0 0 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  resize: vertical;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 10px;
+  color: #202538;
+  font: 13px/1.5 ui-monospace, Consolas, monospace;
+}
+
+textarea:focus {
+  border-color: #3867ff;
+  box-shadow: 0 0 0 3px #3867ff20;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  margin-top: 12px;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #3867ff;
+  color: #fff;
+  cursor: pointer;
+  font: 600 14px/1.2 inherit;
+}
+
+button:hover { background: #2855e6; }
+button:disabled { cursor: wait; opacity: .65; }
+
+.status {
+  min-height: 19px;
+  margin: 11px 0 0;
+  color: #126c43;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.status.error { color: #b42318; }
+.privacy { margin: 14px 0 0; }

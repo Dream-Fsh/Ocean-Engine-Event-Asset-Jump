@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>批量打开巨量账户页</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="panel">
+      <h1>批量打开账户页</h1>
+      <p class="intro">粘贴账户 ID，每行一个或用逗号分隔。</p>
+      <label for="account-input">账户 ID</label>
+      <textarea id="account-input" rows="9" placeholder="例如：&#10;1860144197120064&#10;1860144197120065"></textarea>
+      <button id="open-button" type="button">批量打开事件管理页</button>
+      <p id="status" class="status" aria-live="polite"></p>
+      <p class="privacy">输入仅保存在此浏览器的扩展本地存储中。</p>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>
